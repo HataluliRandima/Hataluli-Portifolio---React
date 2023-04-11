@@ -1,6 +1,7 @@
  
 import './App.css';
 import NavBar from './components/NavBar';
+import SocialLinks from './components/SocialLinks';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
        
        <NavBar/>
        
+       <SocialLinks/>
      </div>
   );
 }
