@@ -3,13 +3,15 @@ import Card from './Card'
 import { hata} from "../assets/use";
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
-import { FiYoutube } from "react-icons/fi"
+import { FiYoutube } from "react-icons/fi";
+import {TbBrandAngular} from "react-icons/tb"
 
 const Projects = () => {
   return (
-    <section
-    id="projects"
-    className="w-full py-20 border-b-[1px] border-b-black bg-gradient-to-b from-white via-black to-gray-800"
+    <div
+    // id="projects"
+    name="projects"
+    className="w-full py-20 border-b-[1px] border-b-black bg-slate-400    "
   >
 {/* bg-gradient-to-b from-white via-black to-gray-800 */}
 
@@ -26,6 +28,7 @@ const Projects = () => {
     </div>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14  ">
+    {/* <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14  "> */}
       <Card
         title="SOCIAL MEDIA CLONE"
         des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -46,6 +49,7 @@ const Projects = () => {
             <FiYoutube/>
 
         }
+        icon3={<TbBrandAngular/>}
       />
       <Card
         title="E-commerce Website"
@@ -59,7 +63,13 @@ const Projects = () => {
             Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
         src={hata}
       />
-       {/*<Card
+       <Card
+        title="Chatting App"
+        des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+        src={hata}
+      />
+      <Card
         title="SOCIAL MEDIA CLONE"
         des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
@@ -71,14 +81,14 @@ const Projects = () => {
             Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
         src={hata}
       />
-      <Card
+        {/*<Card
         title="Chatting App"
         des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
         src={hata}
       /> */}
     </div>
-  </section>
+  </div>
   )
 }
 

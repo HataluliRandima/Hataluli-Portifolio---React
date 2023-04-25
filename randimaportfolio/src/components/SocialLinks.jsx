@@ -60,7 +60,7 @@ const SocialLinks = () => {
 
   return (
 
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex   top-[35%] backdrop-blur-2xl fixed">
     <ul>
       {linking.map(({ id, child, href, style, download }) => (
         <li
