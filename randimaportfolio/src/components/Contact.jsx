@@ -22,7 +22,7 @@ const Contact = () => {
         <div id="contact" className=" py-10 px-3 text-white bg-gray-900">
           <div className="text-center mt-8">
             <h3 className="text-4xl font-semibold">
-              Contact <span className="text-cyan-600">Me</span>
+              Contact <span className="text-gray-600">Me</span>
             </h3>
             <p className="text-gray-400 mt-3 text-lg">Get in touch</p>
     

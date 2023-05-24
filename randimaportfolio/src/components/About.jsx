@@ -35,6 +35,29 @@ const About = () => {
         magni quo! Eum cupiditate debitis labore.
       </p>
       </div>
+
+      <div className="shadow-xl shadow-blue-300 my-12 px-8"> 
+      <p className="text-xl mt-20  ">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
+        deserunt illum mollitia officiis qui exercitationem perferendis neque
+        quasi a recusandae necessitatibus tempora iusto! Blanditiis error
+        iste, totam fugiat recusandae rerum laborum perferendis molestiae
+        a 
+      </p>
+
+ 
+
+      <p className="text-xl">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+        pariatur, vel similique sint, nobis aspernatur ut praesentium
+        explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
+        quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
+        Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
+        magni quo! Eum cupiditate debitis labore.
+      </p>
+      </div>
+
+      
     </div>
   </div>
   )

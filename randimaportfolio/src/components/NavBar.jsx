@@ -58,7 +58,7 @@ const NavBar = () => {
       <div
           className={` ${
             sticky ? "md:bg-white/0 bg-white" : "bg-white"
-          } text-gray-900 md:block hidden px-7 py-2 font-medium  rounded-bl-full`}
+          } text-gray-900 md:block hidden px-7 py-2 font-medium  rounded-bl-full rounded-tl-full`}
         >
         {/* using my array to give li instead of naming it down */}
       <ul className="hidden md:flex">

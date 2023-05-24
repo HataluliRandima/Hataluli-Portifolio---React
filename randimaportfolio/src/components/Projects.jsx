@@ -24,7 +24,7 @@ const Projects = () => {
       <h3 className="text-sm uppercase font-light text-designColor tracking-wide">
       VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
       </h3>
-      <h1 className="text-4xl md:text-5xl text-black-300 font-bold capitalize">My Projects</h1>
+      <h1 className="text-4xl md:text-5xl text-black-300 font-bold capitalize underline">My Projects</h1>
     </div>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14  ">
